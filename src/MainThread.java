@@ -38,7 +38,7 @@ public class MainThread {
         }
         System.out.println(String.format("Общая стоимость расходов на ГСМ: %f", totalFuelAmount));
     }
-    //Вывод отсортированного списка автомобилей
+    //Вывод отсортированного списка автомобилей (git)
     public void outSortList(){
         //Общая стоимость расхода ГСМ
         double totalFuelAmount = 0;
