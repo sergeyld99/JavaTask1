@@ -11,7 +11,7 @@ public class MainThread {
         //Хотел foreach использовать, но не понял как
         for (int i = 0;i < arrCars.length; i++) {
             try{
-                listCars.add(new Car(arrCars[i]));
+                listCars.add(new Car(new CarParams(arrCars[i])));
             }
             catch (CarException e){
                 System.out.println("CarException = " + e.getMessage());
